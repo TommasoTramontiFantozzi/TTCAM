@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="200" height="200">
+  <!-- Sfondo generale del canvas -->
+  <rect x="1" y="1" width="22" height="22" fill="#F8F9FA" stroke="#E0E0E0" stroke-width="1" rx="2" />
+  
+  <!-- Linea tratteggiata di focus originale (opzionale, mantenuta per struttura) -->
+  <rect x="4" y="4" width="16" height="16" fill="none" stroke="#B0BEC5" stroke-dasharray="2 2" stroke-width="1"/>
+  
+  <!-- Pulsante premuto: colore piu scuro (#BBDEFB) e dimensioni ridotte di 1px per l'effetto click -->
+  <rect x="6" y="6" width="12" height="12" fill="#BBDEFB" stroke="#1565C0" stroke-width="2" rx="0.5"/>
+  
+  <!-- Quadratini di controllo spostati verso l'interno per seguire il movimento del pulsante -->
+  <rect x="4" y="4" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="18" y="4" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="4" y="18" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="18" y="18" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+</svg>

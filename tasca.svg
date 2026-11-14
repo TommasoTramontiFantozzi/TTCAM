@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="200" height="200">
+  <!-- Sfondo e bordo esterno (Identico) -->
+  <rect x="1" y="1" width="22" height="22" fill="#F8F9FA" stroke="#E0E0E0" stroke-width="1" rx="2" />
+  
+  <!-- Griglia di allineamento interna (Identica) -->
+  <rect x="4" y="4" width="16" height="16" fill="none" stroke="#B0BEC5" stroke-dasharray="2 2" stroke-width="1"/>
+  
+  <!-- Icona Tasca: Passate Concentriche -->
+  <!-- 1. Riempimento totale azzurro per l'area di scavo -->
+  <rect x="4" y="4" width="16" height="16" fill="#E3F2FD" rx="3" />
+  
+  <!-- 2. Passata esterna (perimetro massimo) -->
+  <rect x="4" y="4" width="16" height="16" fill="none" stroke="#2196F3" stroke-width="2" rx="3" />
+  
+  <!-- 3. Passata intermedia interna -->
+  <rect x="6.5" y="6.5" width="11" height="11" fill="none" stroke="#2196F3" stroke-width="1.5" rx="1.5" />
+  
+  <!-- 4. Passata centrale (finitura interna) -->
+  <rect x="9" y="9" width="6" height="6" fill="none" stroke="#2196F3" stroke-width="1.5" rx="0.5" />
+  
+  <!-- Quadrati di controllo ai quattro angoli (Identici) -->
+  <rect x="3" y="3" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="19" y="3" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="3" y="19" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="19" y="19" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+</svg>

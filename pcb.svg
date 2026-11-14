@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="200" height="200">
+  <!-- Sfondo comune con bordo e angoli arrotondati -->
+  <rect x="1" y="1" width="22" height="22" fill="#F8F9FA" stroke="#E0E0E0" stroke-width="1" rx="2" />
+  
+  <!-- Griglia tecnica di allineamento tratteggiata -->
+  <rect x="4" y="4" width="16" height="16" fill="none" stroke="#B0BEC5" stroke-dasharray="2 2" stroke-width="1"/>
+  
+  <!-- SCHEDA PCB (Base verde/azzurra per richiamare i circuiti) -->
+  <rect x="5" y="7" width="14" height="12" fill="#E8F5E9" stroke="#81C784" stroke-width="1" rx="1"/>
+  
+  <!-- PISTE DEL CIRCUITO -->
+  <!-- Pista superiore già completata -->
+  <path d="M 6,10 L 14,10 L 17,13" fill="none" stroke="#2196F3" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="6" cy="10" r="1" fill="#1976D2" />
+  <circle cx="17" cy="13" r="1" fill="#1976D2" />
+  
+  <!-- Pista inferiore in fase di fresatura/taglio -->
+  <!-- Tratto di pista sinistra -->
+  <path d="M 6,15 L 11,15" fill="none" stroke="#2196F3" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="6" cy="15" r="1" fill="#1976D2" />
+  
+  <!-- Tratto di pista destra (separato dalla fresata) -->
+  <path d="M 14,15 L 18,15" fill="none" stroke="#2196F3" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- CANALE DI FRESATURA (Solco bianco/grigio che interrompe il rame) -->
+  <path d="M 12,13 L 12,17" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 12,13 L 12,17" fill="none" stroke="#B0BEC5" stroke-width="0.5" stroke-linecap="round"/>
+
+  <!-- PUNTA DELLA FRESA (Mandrino + gambo + bulino a V) -->
+  <!-- Mandrino superiore -->
+  <rect x="10" y="3" width="4" height="3" fill="#90A4AE" />
+  <!-- Gambo della fresa -->
+  <rect x="11" y="6" width="2" height="4" fill="#B0BEC5" />
+  <!-- Collare d'oro/bronzo (tipico delle frese PCB di precisione) -->
+  <rect x="10.5" y="10" width="3" height="1" fill="#FFB74D" />
+  <!-- Punta conica (Bulino a V) che entra nel circuito -->
+  <path d="M 11,11 L 13,11 L 12,14 Z" fill="#78909C"/>
+  
+  <!-- Segni di vibrazione/trucioli (Taglio meccanico esplicito) -->
+  <path d="M 10,13 L 9,12 M 14,13 L 15,12" stroke="#1976D2" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Quadratini di ancoraggio blu ai quattro angoli -->
+  <rect x="3" y="3" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="19" y="3" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="3" y="19" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="19" y="19" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+</svg>

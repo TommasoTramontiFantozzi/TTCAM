@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="200" height="200">
+  <!-- Sfondo e bordo esterno (Identico) -->
+  <rect x="1" y="1" width="22" height="22" fill="#F8F9FA" stroke="#E0E0E0" stroke-width="1" rx="2" />
+  
+  <!-- Griglia di allineamento interna (Identica) -->
+  <rect x="4" y="4" width="16" height="16" fill="none" stroke="#B0BEC5" stroke-dasharray="2 2" stroke-width="1"/>
+  
+  <!-- Icona Pattern: Ripetizione di lavorazioni sul piano -->
+  <!-- 1. Frecce direzionali del Pattern (Assi X e Y di replica) -->
+  <path d="M 8,16 L 16,16 M 14,14 L 16,16 L 14,18" fill="none" stroke="#1976D2" stroke-width="1.2" stroke-linejoin="round" />
+  <path d="M 8,16 L 8,8 M 6,10 L 8,8 L 10,10" fill="none" stroke="#1976D2" stroke-width="1.2" stroke-linejoin="round" />
+  
+  <!-- 2. Lavorazione ORIGINE (In basso a sinistra) -->
+  <circle cx="8" cy="16" r="2.5" fill="#2196F3" stroke="#1976D2" stroke-width="1" />
+  <circle cx="8" cy="16" r="0.8" fill="#FFFFFF" /> <!-- Punto centrale foro -->
+  
+  <!-- 3. Lavorazioni REPLICATE (Istanze del Pattern) -->
+  <!-- Replica asse X -->
+  <circle cx="16" cy="16" r="2" fill="#E3F2FD" stroke="#2196F3" stroke-width="1.5" stroke-dasharray="2 1" />
+  <!-- Replica asse Y -->
+  <circle cx="8" cy="8" r="2" fill="#E3F2FD" stroke="#2196F3" stroke-width="1.5" stroke-dasharray="2 1" />
+  <!-- Replica Diagonale (Matrice) -->
+  <circle cx="16" cy="8" r="2" fill="#E3F2FD" stroke="#2196F3" stroke-width="1.5" stroke-dasharray="2 1" />
+
+  <!-- Quadrati di controllo ai quattro angoli (Identici) -->
+  <rect x="3" y="3" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="19" y="3" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="3" y="19" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="19" y="19" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+</svg>

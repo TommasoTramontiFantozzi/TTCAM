@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 24 24" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sfondo esterno dell'icona (Identico) -->
+  <rect x="1" y="1" width="22" height="22" fill="#F8F9FA" stroke="#E0E0E0" stroke-width="1" rx="2"/>
+  
+  <!-- Griglia di allineamento interna tratteggiata (Identica) -->
+  <rect x="4" y="4" width="16" height="16" fill="none" stroke="#B0BEC5" stroke-dasharray="2 2" stroke-width="1"/>
+  
+  <!-- Primo elemento geometrico premuto: abbassato nella matrice di trasformazione e colori scuriti -->
+  <g transform="matrix(0.768609, 0, 0, 0.768609, 5.318364, 1.081463)">
+    <path d="M 11.687 11.856 L 17.643 11.856 L 17.643 14.461 L 15.781 14.461 L 15.781 17.811 L 13.548 17.811 L 13.548 14.461 L 11.687 14.461 L 11.687 11.856 Z" fill="#BBDEFB" opacity="0.6" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -6.19359, 14.714353)"/>
+    <path d="M 11.508 12.218 L 17.464 12.218 L 17.464 14.823 L 15.602 14.823 L 15.602 18.173 L 13.369 18.173 L 13.369 14.823 L 11.508 14.823 L 11.508 12.218 Z" fill="none" stroke="#1565C0" stroke-width="2" stroke-linejoin="round" opacity="0.6" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -6.50199, 14.693808)"/>
+  </g>
+
+  <!-- Gruppo Freccia premuto: Spostato in basso di 1px e colore scurito a #0D47A1 -->
+  <g transform="translate(0, 1)">
+    <!-- Corpo curvo della freccia -->
+    <path d="M 8.433 11.507 C 6.21 10.556 5.85 7.557 7.784 6.107 C 9.153 5.081 11.093 5.339 12.144 6.69" 
+          style="fill-opacity: 0.6; vector-effect: non-scaling-stroke; fill-rule: nonzero; fill: rgba(216, 216, 216, 0); stroke-width: 4px; stroke: rgb(13, 71, 161); stroke-linecap: round;" />
+    
+    <!-- Punta della freccia -->
+    <path d="M 12.117 6.654 L 12.674 7.299 M 11.549 7.193 L 11.954 7.29 L 12.844 7.504 L 12.781 6.172" 
+          fill="none" stroke="#0D47A1" stroke-linecap="round" stroke-linejoin="round" 
+          style="stroke-width: 0.505px;" />
+  </g>
+
+  <!-- Secondo elemento geometrico premuto: abbassato nella matrice di trasformazione e colori scuriti -->
+  <g transform="matrix(0.758477, 0, 0, 0.758477, -3.888623, 7.339838)">
+    <path d="M 13.241 8.489 L 19.197 8.489 L 19.197 11.095 L 17.336 11.095 L 17.336 14.445 L 15.103 14.445 L 15.103 11.095 L 13.241 11.095 L 13.241 8.489 Z" fill="#BBDEFB" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -3.357958, 14.827172)"/>
+    <path d="M 13.034 8.541 L 18.99 8.541 L 18.99 11.147 L 17.129 11.147 L 17.129 14.497 L 14.896 14.497 L 14.896 11.147 L 13.034 11.147 L 13.034 8.541 Z" fill="none" stroke-width="2" stroke-linejoin="round" stroke="#1565C0" transform="matrix(0.99999, 0.00438, -0.00438, 0.99999, 0.05061, -0.070026)"/>
+  </g>
+
+  <!-- Piccolo punto di pivot centrale: spostato in basso di 1px e scurito -->
+  <ellipse style="fill: rgb(187, 222, 251); paint-order: stroke; stroke: rgb(13, 71, 161);" cx="9.616" cy="9.458" rx="0.379" ry="0.379"/>
+
+  <!-- I 4 quadratini di calibrazione spostati all'interno (coordinate 4 e 18) per simulare lo schiacciamento -->
+  <rect x="4" y="4" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="18" y="4" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="4" y="18" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="18" y="18" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+</svg>

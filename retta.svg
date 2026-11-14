@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="200" height="200">
+  <!-- Sfondo e bordo esterno (Identico) -->
+  <rect x="1" y="1" width="22" height="22" fill="#F8F9FA" stroke="#E0E0E0" stroke-width="1" rx="2" />
+  
+  <!-- Griglia di allineamento interna (Identica) -->
+  <rect x="4" y="4" width="16" height="16" fill="none" stroke="#B0BEC5" stroke-dasharray="2 2" stroke-width="1"/>
+  
+  <!-- Icona Linea / Segmento -->
+  <!-- 1. Elemento geometrico principale (Linea da nodo a nodo) -->
+  <line x1="6.5" y1="17.5" x2="17.5" y2="6.5" stroke="#1976D2" stroke-width="1.5" stroke-linecap="round" />
+  
+  <!-- 2. Nodi geometrici estremità ridimensionati -->
+  <!-- Nodo iniziale (In basso a sinistra) -->
+  <circle cx="6.5" cy="17.5" r="1.8" fill="#2196F3" stroke="#1976D2" stroke-width="1" />
+  <circle cx="6.5" cy="17.5" r="0.5" fill="#FFFFFF" />
+  
+  <!-- Nodo finale (In alto a destra) -->
+  <circle cx="17.5" cy="6.5" r="1.8" fill="#2196F3" stroke="#1976D2" stroke-width="1" />
+  <circle cx="17.5" cy="6.5" r="0.5" fill="#FFFFFF" />
+
+  <!-- Quadrati di controllo ai quattro angoli (Identici) -->
+  <rect x="3" y="3" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="19" y="3" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="3" y="19" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="19" y="19" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+</svg>

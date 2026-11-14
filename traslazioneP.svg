@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 24 24" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sfondo esterno dell'icona (Identico) -->
+  <rect x="1" y="1" width="22" height="22" fill="#F8F9FA" stroke="#E0E0E0" stroke-width="1" rx="2"/>
+  
+  <!-- Griglia di allineamento interna tratteggiata (Identica) -->
+  <rect x="4" y="4" width="16" height="16" fill="none" stroke="#B0BEC5" stroke-dasharray="2 2" stroke-width="1"/>
+  
+  <!-- Freccia superiore premuta: spostata in basso (modificato l'ultimo parametro di matrix a 15.276) e colore scurito a #0D47A1 -->
+  <path d="M 8.255 7.138 L 13.73 7.138 M 11.678 9.192 L 14.414 7.138 L 11.678 5.084" fill="none" stroke="#0D47A1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" transform="matrix(-1, 0, 0, -1, 22.669, 15.276)"/>
+  
+  <!-- Gruppo elementi geometrici premuti: spostato in basso di 1px (modificato l'ultimo parametro di matrix a 5.114549) e colori intensificati -->
+  <g transform="matrix(0.744412, 0, 0, 0.744412, 2.497643, 5.114549)">
+    <!-- Lamatura posteriore trasparente -->
+    <path d="M 5 9 L 13 9 L 13 12.5 L 10.5 12.5 L 10.5 17 L 7.5 17 L 7.5 12.5 L 5 12.5 L 5 9 Z" fill="#BBDEFB" opacity="0.6"/>
+    <!-- Lamatura anteriore opaca -->
+    <path d="M 11 9 L 19 9 L 19 12.5 L 16.5 12.5 L 16.5 17 L 13.5 17 L 13.5 12.5 L 11 12.5 L 11 9 Z" fill="#BBDEFB"/>
+    <!-- Profilo lamatura anteriore -->
+    <path d="M 11 9 L 19 9 L 19 12.5 L 16.5 12.5 L 16.5 17 L 13.5 17 L 13.5 12.5 L 11 12.5 L 11 9 Z" fill="none" stroke="#1565C0" stroke-width="2" stroke-linejoin="round"/>
+    <!-- Profilo lamatura posteriore -->
+    <path d="M 5.071 9.011 L 13.071 9.011 L 13.071 12.511 L 10.571 12.511 L 10.571 17.011 L 7.571 17.011 L 7.571 12.511 L 5.071 12.511 L 5.071 9.011 Z" fill="none" stroke="#1565C0" stroke-width="2" stroke-linejoin="round" style="stroke-opacity: 0.6;"/>
+  </g>
+  
+  <!-- I 4 quadratini di calibrazione spostati all'interno (coordinate 4 e 18) per l'effetto di compressione -->
+  <rect x="4" y="4" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="18" y="4" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="4" y="18" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="18" y="18" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+</svg>

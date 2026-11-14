@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <Title Value="TTCAM"/>
+      <Scaled Value="True"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+        <TextName Value="TTCAM"/>
+        <TextDesc Value=""/>
+      </XPManifest>
+      <Icon Value="0"/>
+      <Resources Count="5">
+        <Resource_0 FileName="istructions.txt" Type="RCDATA" ResourceName="ISTRUZIONI"/>
+        <Resource_1 FileName="Example1.ttcam" Type="RCDATA" ResourceName="EXAMPLE1"/>
+        <Resource_2 FileName="Example2.ttcam" Type="RCDATA" ResourceName="EXAMPLE2"/>
+        <Resource_3 FileName="Example3.ttcam" Type="RCDATA" ResourceName="EXAMPLE3"/>
+        <Resource_4 FileName="Example4.ttcam" Type="RCDATA" ResourceName="EXAMPLE4"/>
+      </Resources>
+    </General>
+    <BuildModes>
+      <Item Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+    </RunParams>
+    <RequiredPackages>
+      <Item>
+        <PackageName Value="SynEditDsgn"/>
+      </Item>
+      <Item>
+        <PackageName Value="SynEdit"/>
+      </Item>
+      <Item>
+        <PackageName Value="lazopenglcontext"/>
+      </Item>
+      <Item>
+        <PackageName Value="fpvectorialpkg"/>
+      </Item>
+      <Item>
+        <PackageName Value="LCL"/>
+      </Item>
+    </RequiredPackages>
+    <Units>
+      <Unit>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+      </Unit>
+      <Unit>
+        <Filename Value="gcodegen.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gcodeGen"/>
+      </Unit>
+      <Unit>
+        <Filename Value="svg2gcodeengine.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Svg2GcodeEngine"/>
+      </Unit>
+      <Unit>
+        <Filename Value="savedatastruct.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="svg2gcodeclipperengine.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Svg2GcodeClipperEngine"/>
+      </Unit>
+      <Unit>
+        <Filename Value="lasergcodegenerator.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LaserGCodeGenerator"/>
+      </Unit>
+      <Unit>
+        <Filename Value="imagetogcode.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ImageToGCode"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit2"/>
+      </Unit>
+      <Unit>
+        <Filename Value="helpcontent.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form3"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="helpContent"/>
+      </Unit>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="TTcam"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+        <RunWithoutDebug Value="True"/>
+        <DebugInfoType Value="dsDwarf3"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions>
+      <Item>
+        <Name Value="EAbort"/>
+      </Item>
+      <Item>
+        <Name Value="ECodetoolError"/>
+      </Item>
+      <Item>
+        <Name Value="EFOpenError"/>
+      </Item>
+      <Item>
+        <Name Value="EConvertError"/>
+      </Item>
+      <Item>
+        <Name Value="RunError(216)"/>
+      </Item>
+      <Item>
+        <Name Value="EAccessViolation"/>
+      </Item>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="200" height="200">
+  <!-- Sfondo esterno dell'icona (Identico) -->
+  <rect x="1" y="1" width="22" height="22" fill="#F8F9FA" stroke="#E0E0E0" stroke-width="1" rx="2" />
+  
+  <!-- Griglia di allineamento interna tratteggiata (Identica) -->
+  <rect x="4" y="4" width="16" height="16" fill="none" stroke="#B0BEC5" stroke-dasharray="2 2" stroke-width="1"/>
+  
+  <!-- Tracciato vettoriale premuto: scalato e spostato in basso, con colore piu scuro (#1565C0) -->
+  <path d="M 6 17 C 6 10, 18 16, 18 8" fill="none" stroke="#1565C0" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Linee di controllo delle maniglie adattate alla nuova compressione -->
+  <line x1="6" y1="17" x2="6" y2="12" stroke="#0D47A1" stroke-width="1" stroke-dasharray="1 1" />
+  <line x1="18" y1="8" x2="18" y2="13" stroke="#0D47A1" stroke-width="1" stroke-dasharray="1 1" />
+  
+  <!-- Nodi di controllo principali (Punti di ancoraggio) riposizionati -->
+  <rect x="5" y="16" width="2" height="2" fill="#FFFFFF" stroke="#1565C0" stroke-width="1"/>
+  <rect x="17" y="7" width="2" height="2" fill="#FFFFFF" stroke="#1565C0" stroke-width="1"/>
+  
+  <!-- Punti finali delle maniglie di controllo (Cerchi pieni) adattati -->
+  <circle cx="6" cy="12" r="1" fill="#0D47A1" />
+  <circle cx="18" cy="13" r="1" fill="#0D47A1" />
+
+  <!-- Testo "SVG" in basso a destra: abbassato e scurito -->
+  <text x="18" y="18" font-family="system-ui, -apple-system, sans-serif" font-size="3" font-weight="bold" fill="#0D47A1" text-anchor="end">SVG</text>
+  
+  <!-- I 4 quadratini di calibrazione spostati all'interno (coordinate 4 e 18) per seguire lo schiacciamento -->
+  <rect x="4" y="4" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="18" y="4" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="4" y="18" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="18" y="18" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+</svg>

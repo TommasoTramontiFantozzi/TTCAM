@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="200" height="200">
+  <!-- Sfondo esterno dell'icona -->
+  <rect x="1" y="1" width="22" height="22" fill="#F8F9FA" stroke="#E0E0E0" stroke-width="1" rx="2" />
+  
+  <!-- Griglia di allineamento interna tratteggiata -->
+  <rect x="4" y="4" width="16" height="16" fill="none" stroke="#B0BEC5" stroke-dasharray="2 2" stroke-width="1"/>
+  
+  <!-- Tracciato vettoriale (Curva di Bezier che rappresenta la grafica vettoriale) -->
+  <path d="M 6 17 C 6 8, 18 16, 18 7" fill="none" stroke="#2196F3" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Linee di controllo dei nodi (Maniglie di direzione tipiche dei software vettoriali) -->
+  <line x1="6" y1="17" x2="6" y2="11" stroke="#1976D2" stroke-width="1" stroke-dasharray="1 1" />
+  <line x1="18" y1="7" x2="18" y2="13" stroke="#1976D2" stroke-width="1" stroke-dasharray="1 1" />
+  
+  <!-- Nodi di controllo principali (Punti di ancoraggio quadrati vuoti) -->
+  <rect x="5" y="16" width="2" height="2" fill="#FFFFFF" stroke="#2196F3" stroke-width="1"/>
+  <rect x="17" y="6" width="2" height="2" fill="#FFFFFF" stroke="#2196F3" stroke-width="1"/>
+  
+  <!-- Punti finali delle maniglie di controllo (Cerchi pieni) -->
+  <circle cx="6" cy="11" r="1" fill="#1976D2" />
+  <circle cx="18" cy="13" r="1" fill="#1976D2" />
+  
+  <!-- I 4 quadratini di calibrazione decorativi agli angoli -->
+  <rect x="3" y="3" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="19" y="3" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="3" y="19" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="19" y="19" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+
+  <!-- Testo "SVG" in basso a destra -->
+  <text x="18" y="18" font-family="system-ui, -apple-system, sans-serif" font-size="3" font-weight="bold" fill="#1976D2" text-anchor="end">SVG</text>
+</svg>

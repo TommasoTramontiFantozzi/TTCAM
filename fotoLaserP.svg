@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 24 24" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="22" height="22" fill="#F8F9FA" stroke="#E0E0E0" stroke-width="1" rx="2"/>
+  <g transform="matrix(1, 0, 0, 1, -0.021823, -0.720175)">
+    <rect x="6.788" y="10.607" width="10.527" height="7.519" fill="#FFFFFF" stroke-width="1" rx="0.5" style="" stroke="#1565c0"/>
+    <rect x="7.54" y="11.359" width="9.023" height="4.888" fill="#E3F2FD" style=""/>
+    <circle cx="9.42" cy="12.863" r="0.752" fill="#1565c0" style=""/>
+    <path d="M 7.54 15.495 L 9.796 13.239 L 12.051 15.495 M 10.924 14.367 L 12.427 12.863 L 16.563 16.246 L 7.54 16.246 L 10.924 14.367 Z" fill="#1565c0" style=""/>
+    <line x1="7.54" y1="12.111" x2="11.3" y2="12.111" stroke-width="0.5" stroke-dasharray="0.8 0.8" style="" stroke="#1976D2"/>
+    <line x1="7.54" y1="13.013" x2="12.051" y2="13.013" stroke-width="0.5" stroke-dasharray="0.8 0.8" style="" stroke="#1976D2"/>
+    <line x1="7.54" y1="13.915" x2="13.179" y2="13.915" stroke-width="0.5" stroke-dasharray="0.8 0.8" style="" stroke="#1976D2"/>
+    <line x1="7.54" y1="14.818" x2="13.555" y2="14.818" stroke-width="0.5" stroke-dasharray="0.8 0.8" style="" stroke="#1976D2"/>
+  </g>
+  <rect x="10" y="3.855" width="4" height="1.645" fill="#90A4AE" rx="0.3" style=""/>
+  <path d="M 10.5,5.5 L 13.5,5.5 L 12.5,8 L 11.5,8 Z" fill="#78909C"/>
+  <rect x="11" y="7.5" width="2" height="0.8" fill="#546E7A"/>
+  <g style="" transform="matrix(0.71204, 0, 0, 0.71204, 3.455516, 2.673769)">
+    <line x1="12" y1="8.3" x2="12" y2="12.705" stroke="#FF5722" stroke-width="1" stroke-linecap="round" style=""/>
+    <line x1="12" y1="8.3" x2="12" y2="12.705" stroke="#FFEB3B" stroke-width="0.4" stroke-linecap="round" style=""/>
+    <circle cx="12" cy="12.705" r="0.691" fill="#FF5722" style=""/>
+    <circle cx="12" cy="12.705" r="0.346" fill="#FFFFFF" style=""/>
+    <path d="M 10.704 11.842 L 11.309 12.274 M 13.296 11.842 L 12.691 12.274 M 10.963 13.397 L 11.395 13.051 M 13.037 13.397 L 12.605 13.051" stroke="#FF9800" stroke-width="0.6" stroke-linecap="round" style=""/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0,0)">
+    <rect x="4" y="4" width="16" height="16" fill="none" stroke="#B0BEC5" stroke-dasharray="2 2" stroke-width="1"/>
+    <rect x="4" y="4" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+    <rect x="18" y="4" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+    <rect x="4" y="18" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+    <rect x="18" y="18" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  </g>
+</svg>

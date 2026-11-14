@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="200" height="200">
+  <!-- Cornice standard -->
+  <rect x="1" y="1" width="22" height="22" fill="#F8F9FA" stroke="#E0E0E0" stroke-width="1" rx="2" />
+  <rect x="4" y="4" width="16" height="16" fill="none" stroke="#B0BEC5" stroke-dasharray="2 2" stroke-width="1"/>
+  
+  <!-- Il solido 3D (Grigio neutro disattivato) -->
+  <!-- Spessore/Bordo frontale -->
+  <path d="M4,15 L12,18 L20,15 L20,16 L12,19 L4,16 Z" fill="#CFD8DC" stroke="#B0BEC5" stroke-width="0.5"/>
+  <!-- Faccia superiore -->
+  <path d="M4,15 L12,12 L20,15 L12,18 Z" fill="#ECEFF1" stroke="#CFD8DC" stroke-width="0.75"/>
+
+  <!-- Tracciato G-Code nascosto (Grigio e molto sottile) -->
+  <path d="M7,15.5 L12,14 L16,15.5" fill="none" stroke="#B0BEC5" stroke-width="1" stroke-dasharray="1 1" stroke-linecap="round"/>
+  
+  <!-- Linea di proiezione verticale disattivata -->
+  <line x1="12" y1="14" x2="12" y2="8" stroke="#B0BEC5" stroke-width="0.5" stroke-dasharray="1 1"/>
+
+  <!-- Fresa a cono sospesa (Grigio spento) -->
+  <rect x="11" y="4" width="2" height="2.5" fill="#90A4AE"/>
+  <path d="M10.5,6.5 L13.5,6.5 L12,8 Z" fill="#B0BEC5" stroke="#90A4AE" stroke-width="0.5"/>
+  
+  <!-- Nodi geometrici d'angolo standard -->
+  <rect x="3" y="3" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="19" y="3" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="3" y="19" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="19" y="19" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+
+</svg>

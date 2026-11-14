@@ -1,0 +1,41 @@
+object Form3: TForm3
+  Left = 438
+  Height = 400
+  Top = 131
+  Width = 864
+  Caption = 'Form3'
+  ClientHeight = 400
+  ClientWidth = 864
+  LCLVersion = '4.8.0.0'
+  OnClose = FormClose
+  OnCreate = FormCreate
+  object Panel1: TPanel
+    Left = 0
+    Height = 360
+    Top = 40
+    Width = 864
+    Align = alClient
+    Caption = 'Panel1'
+    TabOrder = 0
+  end
+  object Panel2: TPanel
+    Left = 0
+    Height = 40
+    Top = 0
+    Width = 864
+    Align = alTop
+    Caption = 'Panel2'
+    ClientHeight = 40
+    ClientWidth = 864
+    TabOrder = 1
+    object Button1: TButton
+      Left = 11
+      Height = 21
+      Top = 8
+      Width = 77
+      Caption = 'Button1'
+      TabOrder = 0
+      OnClick = Button1Click
+    end
+  end
+end

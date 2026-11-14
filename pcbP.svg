@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="200" height="200">
+  <!-- Sfondo comune con bordo e angoli arrotondati -->
+  <rect x="1" y="1" width="22" height="22" fill="#F8F9FA" stroke="#E0E0E0" stroke-width="1" rx="2" />
+  
+  <!-- Griglia tecnica di allineamento tratteggiata -->
+  <rect x="4" y="4" width="16" height="16" fill="none" stroke="#B0BEC5" stroke-dasharray="2 2" stroke-width="1"/>
+  
+  <!-- SCHEDA PCB (Spostata a y=8 e colore scurito a #C8E6C9 / #66BB6A) -->
+  <rect x="5" y="8" width="14" height="11" fill="#C8E6C9" stroke="#66BB6A" stroke-width="1" rx="1"/>
+  
+  <!-- PISTE DEL CIRCUITO (Adattate alla nuova posizione della scheda) -->
+  <!-- Pista superiore gia completata -->
+  <path d="M 6,11 L 14,11 L 17,14" fill="none" stroke="#1565C0" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="6" cy="11" r="1" fill="#0D47A1" />
+  <circle cx="17" cy="14" r="1" fill="#0D47A1" />
+  
+  <!-- Pista inferiore in fase di fresatura/taglio -->
+  <!-- Tratto di pista sinistra -->
+  <path d="M 6,16 L 11,16" fill="none" stroke="#1565C0" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="6" cy="16" r="1" fill="#0D47A1" />
+  
+  <!-- Tratto di pista destra (separato dalla fresata) -->
+  <path d="M 14,16 L 18,16" fill="none" stroke="#1565C0" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- CANALE DI FRESATURA (Spostato in basso) -->
+  <path d="M 12,14 L 12,18" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 12,14 L 12,18" fill="none" stroke="#90A4AE" stroke-width="0.5" stroke-linecap="round"/>
+
+  <!-- PUNTA DELLA FRESA (Spostata verso il basso e incassata, elementi scuriti) -->
+  <!-- Mandrino superiore -->
+  <rect x="10" y="4" width="4" height="3" fill="#78909C" />
+  <!-- Gambo della fresa -->
+  <rect x="11" y="7" width="2" height="4" fill="#90A4AE" />
+  <!-- Collare d'oro/bronzo scurito -->
+  <rect x="10.5" y="11" width="3" height="1" fill="#FFA726" />
+  <!-- Punta conica (Bulino a V) che entra nel circuito -->
+  <path d="M 11,12 L 13,12 L 12,15 Z" fill="#546E7A"/>
+  
+  <!-- Segni di vibrazione/trucioli (Spostati in basso) -->
+  <path d="M 10,14 L 9,13 M 14,14 L 15,13" stroke="#0D47A1" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Quadratini di ancoraggio blu spostati all'interno (coordinate 4 e 18) per seguire la compressione -->
+  <rect x="4" y="4" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="18" y="4" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="4" y="18" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+  <rect x="18" y="18" width="2" height="2" fill="#FFFFFF" stroke="#1976D2" stroke-width="1"/>
+</svg>
